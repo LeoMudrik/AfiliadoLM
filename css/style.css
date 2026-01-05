@@ -133,15 +133,26 @@ body {
 }
 
 /* ================= RESPONSIVO ================= */
-@media (max-width: 1400px) {
+
+/* Tablets */
+@media (max-width: 1024px) {
   .products {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .search-box input {
+    width: 70%;
   }
 }
 
-@media (max-width: 900px) {
+/* Smartphones */
+@media (max-width: 768px) {
   .products {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .search-box input {
+    width: 100%;
   }
 
   .menu {
@@ -149,3 +160,20 @@ body {
     gap: 15px;
   }
 }
+
+/* Smartphones pequenos */
+@media (max-width: 480px) {
+  .products {
+    grid-template-columns: 1fr;
+  }
+
+  .card img {
+    height: 140px;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
