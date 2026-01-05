@@ -43,7 +43,7 @@ const products = [
   },
       {
     name: "Mouse Gamer Redragon Cobra Pro RGB, Wireless, Sem Fio, 16000DPI, 8 Botões Programáveis, USB 2.4G - M711 Pro",
-    price: "R$ 170.57",
+    price: "R$ 170,57",
     image: "https://m.media-amazon.com/images/I/51JmbHCiqQL._AC_SX679_.jpg",
     link: "https://amzn.to/45sWmpS"
   },
