@@ -6,10 +6,10 @@ const products = [
     link: "https://a.co/d/a3OqXkK"
   },
   {
-    name: "Fire TV Stick",
-    price: "R$ 299,00",
-    image: "https://m.media-amazon.com/images/I/61PMr0e0ebL._AC_SL1000_.jpg",
-    link: "https://www.amazon.com.br/?tag=SEUTAG-20"
+    name: "martphone Samsung Galaxy A05s 6,7 Tela Infinita 128GB + 6GB RAM",
+    price: "R$ 719,90",
+    image: "https://m.media-amazon.com/images/I/51oGirlz2xL._AC_SX679_.jpg",
+    link: "https://amzn.to/4ptzUnZ"
   },
   {
     name: "Kindle 11ª Geração",
